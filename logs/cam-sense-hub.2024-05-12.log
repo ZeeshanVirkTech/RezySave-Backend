@@ -1,0 +1,342 @@
+2024-05-12 22:03:34,493 [main] INFO  [CamSenseHubApplication] - [USER=""] - [COUNTER=""] - [REF=""] - Starting CamSenseHubApplication using Java 22.0.1 with PID 3652 (C:\Users\hp\Downloads\task\cam-sense-hub\target\classes started by hp in C:\Users\hp\Downloads\task\cam-sense-hub)
+2024-05-12 22:03:34,495 [main] INFO  [CamSenseHubApplication] - [USER=""] - [COUNTER=""] - [REF=""] - No active profile set, falling back to 1 default profile: "default"
+2024-05-12 22:03:35,913 [main] INFO  [RepositoryConfigurationDelegate] - [USER=""] - [COUNTER=""] - [REF=""] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-12 22:03:36,004 [main] INFO  [RepositoryConfigurationDelegate] - [USER=""] - [COUNTER=""] - [REF=""] - Finished Spring Data repository scanning in 86 ms. Found 5 MongoDB repository interfaces.
+2024-05-12 22:03:36,422 [main] INFO  [TomcatWebServer] - [USER=""] - [COUNTER=""] - [REF=""] - Tomcat initialized with port 9091 (http)
+2024-05-12 22:03:36,435 [main] INFO  [Http11NioProtocol] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing ProtocolHandler ["http-nio-9091"]
+2024-05-12 22:03:36,440 [main] INFO  [StandardService] - [USER=""] - [COUNTER=""] - [REF=""] - Starting service [Tomcat]
+2024-05-12 22:03:36,441 [main] INFO  [StandardEngine] - [USER=""] - [COUNTER=""] - [REF=""] - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-12 22:03:36,522 [main] INFO  [[/]] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing Spring embedded WebApplicationContext
+2024-05-12 22:03:36,523 [main] INFO  [ServletWebServerApplicationContext] - [USER=""] - [COUNTER=""] - [REF=""] - Root WebApplicationContext: initialization completed in 1968 ms
+2024-05-12 22:03:36,736 [main] INFO  [client] - [USER=""] - [COUNTER=""] - [REF=""] - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/22.0.1+8-16"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@671d03bb, com.mongodb.Jep395RecordCodecProvider@6babffb5, com.mongodb.KotlinCodecProvider@2173a742]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-05-12 22:03:36,774 [cluster-ClusterId{value='6640f6681ecc946f8898ecc2', description='null'}-localhost:27017] INFO  [cluster] - [USER=""] - [COUNTER=""] - [REF=""] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32458600}
+2024-05-12 22:03:37,528 [main] INFO  [Http11NioProtocol] - [USER=""] - [COUNTER=""] - [REF=""] - Starting ProtocolHandler ["http-nio-9091"]
+2024-05-12 22:03:37,554 [main] INFO  [TomcatWebServer] - [USER=""] - [COUNTER=""] - [REF=""] - Tomcat started on port 9091 (http) with context path ''
+2024-05-12 22:03:37,566 [main] INFO  [CamSenseHubApplication] - [USER=""] - [COUNTER=""] - [REF=""] - Started CamSenseHubApplication in 3.874 seconds (process running for 4.261)
+2024-05-12 22:10:49,229 [http-nio-9091-exec-1] INFO  [[/]] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-12 22:10:49,230 [http-nio-9091-exec-1] INFO  [DispatcherServlet] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing Servlet 'dispatcherServlet'
+2024-05-12 22:10:49,232 [http-nio-9091-exec-1] INFO  [DispatcherServlet] - [USER=""] - [COUNTER=""] - [REF=""] - Completed initialization in 2 ms
+2024-05-12 22:10:49,337 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:10:49 PKT 2024
+2024-05-12 22:10:49,340 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:10:49,403 [http-nio-9091-exec-1] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:10:49,666 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:10:49,678 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:10:49,679 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:10:49 PKT 2024
+2024-05-12 22:10:50,946 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:10:50 PKT 2024
+2024-05-12 22:10:50,947 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:10:50,948 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:10:50,961 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:10:50,961 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:10:50,963 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:10:50 PKT 2024
+2024-05-12 22:10:50,971 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:10:50 PKT 2024
+2024-05-12 22:10:50,973 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:10:50,975 [http-nio-9091-exec-3] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:10:50,985 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:10:50,985 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:10:50,985 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:10:50 PKT 2024
+2024-05-12 22:11:05,637 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:11:05 PKT 2024
+2024-05-12 22:11:05,639 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:11:05,641 [http-nio-9091-exec-4] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:11:05,649 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:11:05,649 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:11:05,649 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:11:05 PKT 2024
+2024-05-12 22:11:05,660 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:11:05 PKT 2024
+2024-05-12 22:11:05,661 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:11:05,661 [http-nio-9091-exec-5] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:11:05,673 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:11:05,674 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:11:05,674 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:11:05 PKT 2024
+2024-05-12 22:11:39,471 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:11:39 PKT 2024
+2024-05-12 22:11:39,472 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:11:39,473 [http-nio-9091-exec-6] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:11:39,482 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:11:39,483 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:11:39,484 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:11:39 PKT 2024
+2024-05-12 22:12:13,080 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:12:13 PKT 2024
+2024-05-12 22:12:13,082 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:12:13,083 [http-nio-9091-exec-8] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:12:13,092 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:12:13,093 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:12:13,093 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:12:13 PKT 2024
+2024-05-12 22:12:13,098 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:12:13 PKT 2024
+2024-05-12 22:12:13,098 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:12:13,100 [http-nio-9091-exec-9] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:12:13,114 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:12:13,114 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:12:13,115 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:12:13 PKT 2024
+2024-05-12 22:37:52,983 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:37:52 PKT 2024
+2024-05-12 22:37:52,985 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:37:52,990 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:37:52,998 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:37:52,998 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:37:52,999 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:37:52 PKT 2024
+2024-05-12 22:37:53,007 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:37:53 PKT 2024
+2024-05-12 22:37:53,008 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:37:53,009 [http-nio-9091-exec-3] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:37:53,016 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:37:53,016 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:37:53,017 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:37:53 PKT 2024
+2024-05-12 22:41:01,911 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:41:01 PKT 2024
+2024-05-12 22:41:01,915 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:41:01,919 [http-nio-9091-exec-6] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:41:01,938 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:41:01,939 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:41:01,941 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:41:01 PKT 2024
+2024-05-12 22:41:01,954 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:41:01 PKT 2024
+2024-05-12 22:41:01,954 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:41:01,956 [http-nio-9091-exec-7] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:41:01,965 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:41:01,967 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:41:01,968 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:41:01 PKT 2024
+2024-05-12 22:41:41,131 [main] INFO  [CamSenseHubApplication] - [USER=""] - [COUNTER=""] - [REF=""] - Starting CamSenseHubApplication using Java 22.0.1 with PID 12304 (C:\Users\hp\Downloads\task\cam-sense-hub\target\classes started by hp in C:\Users\hp\Downloads\task\cam-sense-hub)
+2024-05-12 22:41:41,136 [main] INFO  [CamSenseHubApplication] - [USER=""] - [COUNTER=""] - [REF=""] - No active profile set, falling back to 1 default profile: "default"
+2024-05-12 22:41:42,926 [main] INFO  [RepositoryConfigurationDelegate] - [USER=""] - [COUNTER=""] - [REF=""] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-12 22:41:43,113 [main] INFO  [RepositoryConfigurationDelegate] - [USER=""] - [COUNTER=""] - [REF=""] - Finished Spring Data repository scanning in 177 ms. Found 5 MongoDB repository interfaces.
+2024-05-12 22:41:44,312 [main] INFO  [TomcatWebServer] - [USER=""] - [COUNTER=""] - [REF=""] - Tomcat initialized with port 9091 (http)
+2024-05-12 22:41:44,337 [main] INFO  [Http11NioProtocol] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing ProtocolHandler ["http-nio-9091"]
+2024-05-12 22:41:44,345 [main] INFO  [StandardService] - [USER=""] - [COUNTER=""] - [REF=""] - Starting service [Tomcat]
+2024-05-12 22:41:44,346 [main] INFO  [StandardEngine] - [USER=""] - [COUNTER=""] - [REF=""] - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-12 22:41:44,499 [main] INFO  [[/]] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing Spring embedded WebApplicationContext
+2024-05-12 22:41:44,501 [main] INFO  [ServletWebServerApplicationContext] - [USER=""] - [COUNTER=""] - [REF=""] - Root WebApplicationContext: initialization completed in 3215 ms
+2024-05-12 22:41:44,931 [main] INFO  [client] - [USER=""] - [COUNTER=""] - [REF=""] - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/22.0.1+8-16"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5700c9db, com.mongodb.Jep395RecordCodecProvider@671d03bb, com.mongodb.KotlinCodecProvider@6babffb5]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-05-12 22:41:44,972 [cluster-ClusterId{value='6640ff58ba143f6f886dbd52', description='null'}-localhost:27017] INFO  [cluster] - [USER=""] - [COUNTER=""] - [REF=""] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=37096500}
+2024-05-12 22:41:46,105 [main] INFO  [Http11NioProtocol] - [USER=""] - [COUNTER=""] - [REF=""] - Starting ProtocolHandler ["http-nio-9091"]
+2024-05-12 22:41:46,173 [main] INFO  [TomcatWebServer] - [USER=""] - [COUNTER=""] - [REF=""] - Tomcat started on port 9091 (http) with context path ''
+2024-05-12 22:41:46,204 [main] INFO  [CamSenseHubApplication] - [USER=""] - [COUNTER=""] - [REF=""] - Started CamSenseHubApplication in 6.782 seconds (process running for 7.603)
+2024-05-12 22:41:52,077 [http-nio-9091-exec-1] INFO  [[/]] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-12 22:41:52,091 [http-nio-9091-exec-1] INFO  [DispatcherServlet] - [USER=""] - [COUNTER=""] - [REF=""] - Initializing Servlet 'dispatcherServlet'
+2024-05-12 22:41:52,096 [http-nio-9091-exec-1] INFO  [DispatcherServlet] - [USER=""] - [COUNTER=""] - [REF=""] - Completed initialization in 4 ms
+2024-05-12 22:41:52,233 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:41:52 PKT 2024
+2024-05-12 22:41:52,237 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:41:52,280 [http-nio-9091-exec-1] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:41:52,532 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:41:52,535 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:41:52,536 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:41:52 PKT 2024
+2024-05-12 22:41:52,682 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:41:52 PKT 2024
+2024-05-12 22:41:52,683 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:41:52,685 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:41:52,697 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:41:52,698 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:41:52,699 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:41:52 PKT 2024
+2024-05-12 22:43:28,929 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:43:28 PKT 2024
+2024-05-12 22:43:28,932 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:43:28,934 [http-nio-9091-exec-5] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:43:28,957 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:43:28,960 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:43:28,961 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:43:28 PKT 2024
+2024-05-12 22:50:38,231 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:50:38 PKT 2024
+2024-05-12 22:50:38,232 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:50:38,235 [http-nio-9091-exec-7] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:50:38,255 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:50:38,256 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:50:38,256 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:50:38 PKT 2024
+2024-05-12 22:50:38,271 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:50:38 PKT 2024
+2024-05-12 22:50:38,287 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:50:38,303 [http-nio-9091-exec-8] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:50:38,319 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:50:38,320 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:50:38,322 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:50:38 PKT 2024
+2024-05-12 22:52:58,221 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:52:58 PKT 2024
+2024-05-12 22:52:58,223 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:52:58,224 [http-nio-9091-exec-1] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:52:58,238 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:52:58,240 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:52:58,242 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:52:58 PKT 2024
+2024-05-12 22:52:58,289 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:52:58 PKT 2024
+2024-05-12 22:52:58,293 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:52:58,295 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:52:58,307 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:52:58,307 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:52:58,308 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:52:58 PKT 2024
+2024-05-12 22:54:48,101 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:54:48 PKT 2024
+2024-05-12 22:54:48,102 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:54:48,103 [http-nio-9091-exec-5] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:54:48,110 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:54:48,111 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:54:48,112 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:54:48 PKT 2024
+2024-05-12 22:54:48,124 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:54:48 PKT 2024
+2024-05-12 22:54:48,129 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:54:48,137 [http-nio-9091-exec-6] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:54:48,155 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:54:48,156 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:54:48,157 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:54:48 PKT 2024
+2024-05-12 22:56:17,227 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:56:17 PKT 2024
+2024-05-12 22:56:17,229 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:56:17,231 [http-nio-9091-exec-10] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:56:17,242 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:56:17,242 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:56:17,245 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:56:17 PKT 2024
+2024-05-12 22:56:17,262 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:56:17 PKT 2024
+2024-05-12 22:56:17,276 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:56:17,279 [http-nio-9091-exec-9] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:56:17,289 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:56:17,294 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:56:17,297 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:56:17 PKT 2024
+2024-05-12 22:56:52,444 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:56:52 PKT 2024
+2024-05-12 22:56:52,444 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:56:52,449 [http-nio-9091-exec-1] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:56:52,469 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:56:52,470 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:56:52,471 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:56:52 PKT 2024
+2024-05-12 22:56:52,485 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:56:52 PKT 2024
+2024-05-12 22:56:52,487 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:56:52,489 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:56:52,496 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:56:52,496 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:56:52,497 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:56:52 PKT 2024
+2024-05-12 22:58:03,214 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:58:03 PKT 2024
+2024-05-12 22:58:03,214 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:58:03,215 [http-nio-9091-exec-5] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:58:03,222 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:58:03,223 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:58:03,226 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:58:03 PKT 2024
+2024-05-12 22:58:03,238 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:58:03 PKT 2024
+2024-05-12 22:58:03,240 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:58:03,241 [http-nio-9091-exec-6] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:58:03,264 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:58:03,265 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:58:03,269 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:58:03 PKT 2024
+2024-05-12 22:58:25,924 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:58:25 PKT 2024
+2024-05-12 22:58:25,925 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:58:25,926 [http-nio-9091-exec-8] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:58:25,938 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:58:25,938 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:58:25,939 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:58:25 PKT 2024
+2024-05-12 22:58:25,949 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:58:25 PKT 2024
+2024-05-12 22:58:25,951 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:58:25,952 [http-nio-9091-exec-7] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:58:25,961 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:58:25,962 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:58:25,963 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:58:25 PKT 2024
+2024-05-12 22:59:42,595 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:59:42 PKT 2024
+2024-05-12 22:59:42,596 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:59:42,597 [http-nio-9091-exec-1] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:59:42,603 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:59:42,604 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:59:42,605 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:59:42 PKT 2024
+2024-05-12 22:59:42,612 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:59:42 PKT 2024
+2024-05-12 22:59:42,613 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:59:42,614 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:59:42,620 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:59:42,621 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:59:42,623 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:59:42 PKT 2024
+2024-05-12 22:59:55,303 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:59:55 PKT 2024
+2024-05-12 22:59:55,304 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:59:55,306 [http-nio-9091-exec-4] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:59:55,316 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:59:55,316 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:59:55,318 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:59:55 PKT 2024
+2024-05-12 22:59:55,325 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 22:59:55 PKT 2024
+2024-05-12 22:59:55,330 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 22:59:55,370 [http-nio-9091-exec-3] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 22:59:55,384 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 22:59:55,385 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 22:59:55,386 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 22:59:55 PKT 2024
+2024-05-12 23:00:02,926 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:00:02 PKT 2024
+2024-05-12 23:00:02,926 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:00:02,928 [http-nio-9091-exec-5] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:00:02,938 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:00:02,939 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:00:02,940 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:00:02 PKT 2024
+2024-05-12 23:00:02,957 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:00:02 PKT 2024
+2024-05-12 23:00:02,959 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:00:02,962 [http-nio-9091-exec-6] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:00:02,976 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:00:02,977 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:00:02,979 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:00:02 PKT 2024
+2024-05-12 23:00:12,437 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:00:12 PKT 2024
+2024-05-12 23:00:12,438 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:00:12,439 [http-nio-9091-exec-8] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:00:12,444 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:00:12,445 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:00:12,445 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:00:12 PKT 2024
+2024-05-12 23:00:12,452 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:00:12 PKT 2024
+2024-05-12 23:00:12,453 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:00:12,454 [http-nio-9091-exec-7] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:00:12,459 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:00:12,459 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:00:12,459 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:00:12 PKT 2024
+2024-05-12 23:00:19,056 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:00:19 PKT 2024
+2024-05-12 23:00:19,057 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:00:19,058 [http-nio-9091-exec-9] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:00:19,064 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:00:19,065 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:00:19,065 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:00:19 PKT 2024
+2024-05-12 23:00:19,076 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:00:19 PKT 2024
+2024-05-12 23:00:19,077 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:00:19,079 [http-nio-9091-exec-10] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:00:19,087 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:00:19,088 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:00:19,091 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:00:19 PKT 2024
+2024-05-12 23:02:08,302 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:02:08 PKT 2024
+2024-05-12 23:02:08,304 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:02:08,305 [http-nio-9091-exec-4] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:02:08,313 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:02:08,313 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:02:08,314 [http-nio-9091-exec-4] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:02:08 PKT 2024
+2024-05-12 23:02:08,322 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:02:08 PKT 2024
+2024-05-12 23:02:08,327 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:02:08,334 [http-nio-9091-exec-3] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:02:08,350 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:02:08,350 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:02:08,351 [http-nio-9091-exec-3] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:02:08 PKT 2024
+2024-05-12 23:07:45,070 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:07:45 PKT 2024
+2024-05-12 23:07:45,072 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:07:45,073 [http-nio-9091-exec-8] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:07:45,080 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:07:45,080 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:07:45,081 [http-nio-9091-exec-8] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:07:45 PKT 2024
+2024-05-12 23:07:45,091 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:07:45 PKT 2024
+2024-05-12 23:07:45,094 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:07:45,095 [http-nio-9091-exec-7] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:07:45,112 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:07:45,115 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:07:45,121 [http-nio-9091-exec-7] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:07:45 PKT 2024
+2024-05-12 23:13:25,022 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:13:25 PKT 2024
+2024-05-12 23:13:25,024 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:13:25,025 [http-nio-9091-exec-1] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:13:25,031 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:13:25,031 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:13:25,031 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:13:25 PKT 2024
+2024-05-12 23:13:25,041 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:13:25 PKT 2024
+2024-05-12 23:13:25,043 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:13:25,046 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:13:25,062 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:13:25,064 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:13:25,070 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:13:25 PKT 2024
+2024-05-12 23:15:43,271 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:15:43 PKT 2024
+2024-05-12 23:15:43,274 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:15:43,275 [http-nio-9091-exec-5] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:15:43,285 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:15:43,285 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:15:43,288 [http-nio-9091-exec-5] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:15:43 PKT 2024
+2024-05-12 23:15:43,297 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:15:43 PKT 2024
+2024-05-12 23:15:43,299 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:15:43,300 [http-nio-9091-exec-6] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:15:43,310 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:15:43,311 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:15:43,313 [http-nio-9091-exec-6] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:15:43 PKT 2024
+2024-05-12 23:16:54,784 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:16:54 PKT 2024
+2024-05-12 23:16:54,785 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:16:54,791 [http-nio-9091-exec-10] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:16:54,810 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:16:54,811 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:16:54,812 [http-nio-9091-exec-10] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:16:54 PKT 2024
+2024-05-12 23:16:54,826 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:16:54 PKT 2024
+2024-05-12 23:16:54,830 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:16:54,830 [http-nio-9091-exec-9] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:16:54,845 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:16:54,847 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:16:54,849 [http-nio-9091-exec-9] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:16:54 PKT 2024
+2024-05-12 23:17:43,516 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:17:43 PKT 2024
+2024-05-12 23:17:43,517 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:17:43,518 [http-nio-9091-exec-1] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:17:43,532 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:17:43,533 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:17:43,534 [http-nio-9091-exec-1] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:17:43 PKT 2024
+2024-05-12 23:17:43,590 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - IN - getAllCameraDetails - Date: Sun May 12 23:17:43 PKT 2024
+2024-05-12 23:17:43,612 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB start
+2024-05-12 23:17:43,614 [http-nio-9091-exec-2] DEBUG [MongoTemplate] - [USER=""] - [COUNTER=""] - [REF=""] - find using query: {} fields: Document{{}} sort: null for class: class com.camsensehub.entity.Camera in collection: Camera
+2024-05-12 23:17:43,623 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - fetching cameraDetails from DB end
+2024-05-12 23:17:43,624 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - SUCCESS -> ResponseCode: 00, ResponseDesc:Processed OK
+2024-05-12 23:17:43,625 [http-nio-9091-exec-2] INFO  [DetectorCameraServiceImpl] - [USER=""] - [COUNTER=""] - [REF=""] - OUT - getAllCameraDetails - Date: Sun May 12 23:17:43 PKT 2024
